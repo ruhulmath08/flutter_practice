@@ -28,5 +28,10 @@ class HomeModel {
           route: Routes.carouselViewPage,
           image: 'image',
         ),
+        const HomeModel(
+          title: StringConstants.multiTapDetector,
+          route: Routes.multiTapDetectorPage,
+          image: 'image',
+        ),
       ];
 }
