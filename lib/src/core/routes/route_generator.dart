@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_practice/src/core/constants/string_constants.dart';
 import 'package:flutter_practice/src/core/routes/routes.dart';
 import 'package:flutter_practice/src/features/badge_with_icon_button/badge_with_icon_button_page.dart';
-import 'package:flutter_practice/src/features/carousel_view/carousel_view.dart';
+import 'package:flutter_practice/src/features/carousel_view/page/carousel_view_page.dart';
 import 'package:flutter_practice/src/features/stylish_text/stylish_text_page.dart';
 
 class RouteGenerator {
