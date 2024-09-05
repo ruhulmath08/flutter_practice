@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice/src/features/carousel_view/widgets/photo_hero.dart';
 
+//https://www.youtube.com/watch?v=90S2dktY4Ck
+
 class CarouselViewPage extends StatefulWidget {
   const CarouselViewPage({super.key, required this.title});
 
