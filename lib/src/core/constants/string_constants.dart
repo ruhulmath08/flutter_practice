@@ -3,4 +3,5 @@ class StringConstants {
   static const String badgeWithIconButton = "Badge With Icon Button";
   static const String carouselView = "Carousel View";
   static const String multiTapDetector = "Multi Tap Detector";
+  static const String flutterRangeSlider = "Flutter Range Slider";
 }

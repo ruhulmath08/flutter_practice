@@ -33,5 +33,10 @@ class HomeModel {
           route: Routes.multiTapDetectorPage,
           image: 'image',
         ),
+        const HomeModel(
+          title: StringConstants.flutterRangeSlider,
+          route: Routes.flutterRangeSliderPage,
+          image: 'image',
+        ),
       ];
 }
