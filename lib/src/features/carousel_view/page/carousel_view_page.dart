@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice/src/features/carousel_view/widgets/photo_hero.dart';
 
-//https://www.youtube.com/watch?v=90S2dktY4Ck
-
 class CarouselViewPage extends StatefulWidget {
   const CarouselViewPage({super.key, required this.title});
 
@@ -38,7 +36,7 @@ class _CarouselViewPageState extends State<CarouselViewPage> {
       body: Center(
         child: Column(
           children: [
-            const SizedBox(height: 20),
+            const SizedBox(height: 8),
             ConstrainedBox(
               constraints: const BoxConstraints(maxHeight: 280),
               child: CarouselView(
@@ -69,7 +67,7 @@ class _CarouselViewPageState extends State<CarouselViewPage> {
                 }),
               ),
             ),
-            const SizedBox(height: 10),
+            const SizedBox(height: 5),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

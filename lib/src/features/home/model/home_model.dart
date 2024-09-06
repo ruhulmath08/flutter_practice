@@ -24,8 +24,8 @@ class HomeModel {
           image: 'image',
         ),
         const HomeModel(
-          title: StringConstants.carouselView,
-          route: Routes.carouselViewPage,
+          title: StringConstants.flutterCarousel,
+          route: Routes.flutterCarouselPage,
           image: 'image',
         ),
         const HomeModel(
