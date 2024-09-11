@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice/src/core/routes/route_generator.dart';
-import 'package:flutter_practice/src/features/home/page/home_page.dart';
+import 'package:flutter_practice/src/features/auth/presentation/pages/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
       ),
       onGenerateRoute: RouteGenerator.generateRoute,
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }
