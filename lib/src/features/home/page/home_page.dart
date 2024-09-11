@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_practice/src/features/home/model/home_model.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+  const HomePage({super.key, required this.title});
+
+  final String title;
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -29,7 +31,7 @@ class _HomePageState extends State<HomePage> {
         itemBuilder: (BuildContext context, int index) {
           HomeModel homeModel = allModelData[index];
           return ElevatedButton(
-            onPressed: (){
+            onPressed: () {
               _onButtonPress(homeModel.route);
             },
             child: Text(homeModel.title),
@@ -39,7 +41,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  void _onButtonPress(String routeName){
+  void _onButtonPress(String routeName) {
     Navigator.pushNamed(context, routeName);
   }
 }
