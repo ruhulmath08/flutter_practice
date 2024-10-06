@@ -6,7 +6,7 @@ class UserEntity {
   final String lastName;
   final String gender;
   final String image;
-  final String token;
+  final String accessToken;
   final String refreshToken;
 
   UserEntity({
@@ -17,7 +17,7 @@ class UserEntity {
     required this.lastName,
     required this.gender,
     required this.image,
-    required this.token,
+    required this.accessToken,
     required this.refreshToken,
   });
 }

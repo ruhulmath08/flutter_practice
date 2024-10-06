@@ -38,5 +38,15 @@ class HomeModel {
           route: Routes.flutterRangeSliderPage,
           image: 'image',
         ),
+        const HomeModel(
+          title: StringConstants.flutterHealthDetails,
+          route: Routes.flutterHealthDetailsPage,
+          image: 'image',
+        ),
+        const HomeModel(
+          title: StringConstants.flutterShowCaseView,
+          route: Routes.flutterShowcaseViewPage,
+          image: 'image',
+        ),
       ];
 }

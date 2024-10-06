@@ -9,7 +9,7 @@ class UserModel extends UserEntity {
     required super.lastName,
     required super.gender,
     required super.image,
-    required super.token,
+    required super.accessToken,
     required super.refreshToken,
   });
 
@@ -21,7 +21,7 @@ class UserModel extends UserEntity {
     lastName: json["lastName"],
     gender: json["gender"],
     image: json["image"],
-    token: json["token"],
+    accessToken: json["accessToken"],
     refreshToken: json["refreshToken"],
   );
 
@@ -33,7 +33,7 @@ class UserModel extends UserEntity {
     "lastName": lastName,
     "gender": gender,
     "image": image,
-    "token": token,
+    "token": accessToken,
     "refreshToken": refreshToken,
   };
 }

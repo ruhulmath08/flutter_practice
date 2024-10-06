@@ -25,7 +25,7 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
     } else if (event is LoginSubmitted) {
       emit(state.copyWith(loginStateStatus: LoginStateStatus.loading));
       final response = await loginUseCase.execute(
-        username: 'state.username',
+        username: state.username,
         password: state.password,
       );
 
