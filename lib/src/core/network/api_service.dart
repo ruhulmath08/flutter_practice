@@ -72,7 +72,9 @@ class ApiService {
     }
 
     return ApiException(
-        message: errorDescription, code: error.response?.statusCode);
+      message: errorDescription,
+      code: error.response?.statusCode,
+    );
   }
 
   // HTTP GET request
