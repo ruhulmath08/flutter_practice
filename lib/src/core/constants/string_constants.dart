@@ -22,4 +22,10 @@ class StringConstants {
   static const String flutterCarousel = "Flutter Carousel";
   static const String carouselView = "Carousel View";
   static const String carouselDetails = "Carousel Details";
+
+  ///Flutter health details
+  static const String flutterHealthDetails = "Flutter Health Details";
+
+  ///showcaseview
+  static const String flutterShowCaseView = "Flutter show case view";
 }
