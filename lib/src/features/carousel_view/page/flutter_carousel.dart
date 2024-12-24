@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice/src/core/constants/string_constants.dart';
-import 'package:flutter_practice/src/core/routes/routes.dart';
+import 'package:flutter_practice/src/routing/routes.dart';
 
 class FlutterCarousel extends StatelessWidget {
   const FlutterCarousel({super.key, required this.title});

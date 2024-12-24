@@ -18,4 +18,8 @@ class Routes{
   static const String flutterHealthDetailsPage = '/flutter_health_details_page';
 
   static const String flutterShowcaseViewPage = '/flutter_showcase_view_page';
+
+  ///Flutter charts
+  static const String flutterChartsPage = '/flutter_charts_page';
+  static const String flutterSleepChartsPage = '/flutter_sleep_charts_page';
 }
