@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_practice/src/core/styles/app_colors.dart';
+import 'package:flutter_practice/src/core/themes/styles/app_colors.dart';
 import 'package:flutter_practice/src/features/multi_tap_detector/widgets/multi_tap_detector.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 

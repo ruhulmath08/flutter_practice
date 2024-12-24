@@ -26,6 +26,10 @@ class StringConstants {
   ///Flutter health details
   static const String flutterHealthDetails = "Flutter Health Details";
 
-  ///showcaseview
+  ///Flutter show case
   static const String flutterShowCaseView = "Flutter show case view";
+
+  ///Flutter Chart
+  static const String flutterChart = "Flutter Chart";
+  static const String flutterSleepChart = "Flutter Sleep Chart";
 }

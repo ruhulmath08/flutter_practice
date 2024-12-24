@@ -1,5 +1,5 @@
 import 'package:flutter_practice/src/core/constants/string_constants.dart';
-import 'package:flutter_practice/src/core/routes/routes.dart';
+import 'package:flutter_practice/src/routing/routes.dart';
 
 class HomeModel {
   const HomeModel({
@@ -46,6 +46,11 @@ class HomeModel {
         const HomeModel(
           title: StringConstants.flutterShowCaseView,
           route: Routes.flutterShowcaseViewPage,
+          image: 'image',
+        ),
+        const HomeModel(
+          title: StringConstants.flutterChart,
+          route: Routes.flutterChartsPage,
           image: 'image',
         ),
       ];

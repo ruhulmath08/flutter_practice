@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_practice/src/core/constants/string_constants.dart';
 import 'package:flutter_practice/src/core/network/api_service.dart';
-import 'package:flutter_practice/src/core/routes/routes.dart';
+import 'package:flutter_practice/src/routing/routes.dart';
 import 'package:flutter_practice/src/features/auth/data/data_sources/auth_remote_data_source_impl.dart';
 import 'package:flutter_practice/src/features/auth/data/repositories/auth_repository_impl.dart';
 import 'package:flutter_practice/src/features/auth/domain/use_cases/login_use_case.dart';

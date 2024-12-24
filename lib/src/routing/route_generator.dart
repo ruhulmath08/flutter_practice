@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice/src/core/constants/string_constants.dart';
-import 'package:flutter_practice/src/core/routes/routes.dart';
+import 'package:flutter_practice/src/routing/routes.dart';
 import 'package:flutter_practice/src/features/auth/presentation/pages/login_page.dart';
 import 'package:flutter_practice/src/features/badge_with_icon_button/badge_with_icon_button_page.dart';
 import 'package:flutter_practice/src/features/carousel_view/page/carousel_details.dart';
 import 'package:flutter_practice/src/features/carousel_view/page/carousel_view_page.dart';
 import 'package:flutter_practice/src/features/carousel_view/page/flutter_carousel.dart';
+import 'package:flutter_practice/src/features/flutter_chart/landing/flutter_chart.dart';
+import 'package:flutter_practice/src/features/flutter_chart/flutter_sleep_chart/flutter_sleep_chart.dart';
 import 'package:flutter_practice/src/features/flutter_health_details/presentation/pages/flutter_health_details_page.dart';
 import 'package:flutter_practice/src/features/flutter_show_case_view/flutter_show_case_view.dart';
 import 'package:flutter_practice/src/features/flutter_widgets/flutter_range_slider_page.dart';
@@ -77,13 +79,25 @@ class RouteGenerator {
             title: StringConstants.flutterHealthDetails,
           ),
         );
-
       case Routes.flutterShowcaseViewPage:
         return MaterialPageRoute(
           builder: (_) => ShowCaseWidget(
-            builder: (_) =>const FlutterShowCaseView(
+            builder: (_) => const FlutterShowCaseView(
               title: StringConstants.flutterShowCaseView,
             ),
+          ),
+        );
+      case Routes.flutterChartsPage:
+        return MaterialPageRoute(
+          builder: (_) => const FlutterChart(
+            title: StringConstants.flutterChart,
+          ),
+        );
+
+        case Routes.flutterSleepChartsPage:
+        return MaterialPageRoute(
+          builder: (_) => const FlutterSleepChart(
+            title: StringConstants.flutterSleepChart,
           ),
         );
     }
