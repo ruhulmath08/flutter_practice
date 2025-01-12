@@ -45,3 +45,10 @@ class _FlutterChartState extends State<FlutterChart> {
     );
   }
 }
+
+/*
+* https://dchart.pages.dev/
+* https://pub.dev/packages/flutter_charts
+* https://pub.dev/packages/syncfusion_flutter_charts
+*
+* */

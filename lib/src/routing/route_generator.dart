@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice/src/core/constants/string_constants.dart';
+import 'package:flutter_practice/src/features/flutter_date_time_picker/landing/flutter_date_time_picker.dart';
 import 'package:flutter_practice/src/routing/routes.dart';
 import 'package:flutter_practice/src/features/auth/presentation/pages/login_page.dart';
 import 'package:flutter_practice/src/features/badge_with_icon_button/badge_with_icon_button_page.dart';
@@ -94,10 +95,16 @@ class RouteGenerator {
           ),
         );
 
-        case Routes.flutterSleepChartsPage:
+      case Routes.flutterSleepChartsPage:
         return MaterialPageRoute(
           builder: (_) => const FlutterSleepChart(
             title: StringConstants.flutterSleepChart,
+          ),
+        );
+      case Routes.flutterDateTimePickerPage:
+        return MaterialPageRoute(
+          builder: (_) => const FlutterDateTimePicker(
+            title: StringConstants.flutterDateTimePicker,
           ),
         );
     }

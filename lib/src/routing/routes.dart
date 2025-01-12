@@ -22,4 +22,7 @@ class Routes{
   ///Flutter charts
   static const String flutterChartsPage = '/flutter_charts_page';
   static const String flutterSleepChartsPage = '/flutter_sleep_charts_page';
+
+  ///Flutter date time picker
+  static const String flutterDateTimePickerPage = '/flutter_date_time_picker';
 }

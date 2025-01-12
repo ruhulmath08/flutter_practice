@@ -32,4 +32,7 @@ class StringConstants {
   ///Flutter Chart
   static const String flutterChart = "Flutter Chart";
   static const String flutterSleepChart = "Flutter Sleep Chart";
+
+  ///Flutter date time picker
+  static const String flutterDateTimePicker = "Flutter Date Time Picker";
 }

@@ -53,5 +53,10 @@ class HomeModel {
           route: Routes.flutterChartsPage,
           image: 'image',
         ),
+        const HomeModel(
+          title: StringConstants.flutterDateTimePicker,
+          route: Routes.flutterDateTimePickerPage,
+          image: 'image',
+        ),
       ];
 }
